@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <div class="start">
+        <nav class="home-nav">
+            <a class="home" href="index.html">Home</a>
+            <a class="about" href="about.html">About Us</a>
+            <a class="TMT" href="time_management.html">Time Management Tips</a>
+            <a class="res" href="resources.html">Tools and Resources</a>
+            <a class="feedback" href="feedback.html">Feedback</a>
+        </nav>
+    </div>
+    <p class="feed-title"> We Believe that feedback and opinions help us improve our work and deliver the best
+        experience.</p>
+    <p class="feed-head">Feedback Form</p>
+    <div class="feed">
+        <form action="submit_feedback.php" method="post">
+            <fieldset>
+                <legend> Let's Get to Know You </legend>
+                <label for="pname">Enter your Name: </label>
+                <input type="text" name="panme" id="pname" placeholder="Nischal V Pattedar">
+                <br>
+                <br>
+                <label>Choose your interests: </label> <br>
+                <label>
+                    <input type="checkbox" name="Option1" value="Sports">
+                    Sports
+                </label> <br>
+                <label>
+                    <input type="checkbox" name="Option2" value="Philosophy">
+                    Philosophy
+                </label> <br>
+                <label>
+                    <input type="checkbox" name="Option3" value="Drama">
+                    Drama
+                </label> <br>
+                <label>
+                    <input type="checkbox" name="Option4" value="Music">
+                    Music
+                </label> <br>
+                <label>
+                    <input type="checkbox" name="Option3" value="Education">
+                    Education <br>
+                </label> <br>
+
+                <label>What is the most important thing in your life? <br> </label> <br>
+                <label>
+                    <input type="radio" name="group1" value="Time">
+                    Time <br>
+                </label>
+                <label>
+                    <input type="radio" name="group1" value="Money">
+                    Money <br>
+                </label>
+                <label>
+                    <input type="radio" name="group1" value="Relationship">
+                    Relationship <br>
+                </label>
+                <label>
+                    <input type="radio" name="group1" value="Prestige">
+                    Prestige <br>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback of Our Website</legend>
+                <ol>
+                    <li>
+                        <p> How satisfied are you with the overall design and layout of the website? </p>
+                        <label>Rating: </label>
+                        <select id="rating1" name="rating1" required>
+                            <optgroup>
+                                <option value="1">⭐</option>
+                                <option value="2">⭐⭐</option>
+                                <option value="3">⭐⭐⭐</option>
+                                <option value="4">⭐⭐⭐⭐</option>
+                                <option value="5">⭐⭐⭐⭐⭐</option>
+                                <option value="6">⭐⭐⭐⭐⭐⭐</option>
+                                <option value="7">⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="8">⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="9">⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="10" selected>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <br>
+                    <li>
+                        <p>Did you find the content on time management clear and easy to understand?</p>
+                        <label>Rating: </label>
+                        <select id="rating2" name="rating2" required>
+                            <optgroup>
+                                <option value="1">⭐</option>
+                                <option value="2">⭐⭐</option>
+                                <option value="3">⭐⭐⭐</option>
+                                <option value="4">⭐⭐⭐⭐</option>
+                                <option value="5">⭐⭐⭐⭐⭐</option>
+                                <option value="6">⭐⭐⭐⭐⭐⭐</option>
+                                <option value="7">⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="8">⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="9">⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="10" selected>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <p>How likely are you to recommend this website to a friend or colleague interested in
+                            improving their time management skills?</p>
+                        <label>Rating: </label>
+                        <select id="rating3" name="rating3" required>
+                            <optgroup>
+                                <option value="1">⭐</option>
+                                <option value="2">⭐⭐</option>
+                                <option value="3">⭐⭐⭐</option>
+                                <option value="4">⭐⭐⭐⭐</option>
+                                <option value="5">⭐⭐⭐⭐⭐</option>
+                                <option value="6">⭐⭐⭐⭐⭐⭐</option>
+                                <option value="7">⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="8">⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="9">⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="10" selected>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <p>Were you able to easily navigate through different sections of the website?</p>
+                        <label>Rating: </label>
+                        <select id="rating4" name="rating4" required>
+                            <optgroup>
+                                <option value="1">⭐</option>
+                                <option value="2">⭐⭐</option>
+                                <option value="3">⭐⭐⭐</option>
+                                <option value="4">⭐⭐⭐⭐</option>
+                                <option value="5">⭐⭐⭐⭐⭐</option>
+                                <option value="6">⭐⭐⭐⭐⭐⭐</option>
+                                <option value="7">⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="8">⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="9">⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                                <option value="10" selected>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <p>Did you encounter any technical issues or bugs while using the website? Please provide
+                            details.</p>
+                        <label>Choose: </label>
+                        <select id="rating4" name="rating4" required>
+                            <optgroup>
+                                <option value="Page Load">Page Load Issues</option>
+                                <option value="Navigation">Navigation Issues</option>
+                                <option value="Display Layout">Display and Layout Problems</option>
+                                <option value="Functionality">Functionality Issues</option>
+                                <option value="Browser Compatibility">Browser Compatibility</option>
+                                <option value="None">No Issues</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <p><label for="overall">In what ways can we improve the website to better meet your time
+                                management needs?</p>
+                        <textarea name="overall" id="overall" cols="80" rows="10"
+                            placeholder="Enter your valuable feedback"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+            <input type="submit" value="Submit" class="final1">
+            <input type="reset" value="Reset" class="final2">
+        </form>
+    </div>
+
+    <div class="back-to-top">
+        <a href="#" class="feed-top">Back to Top</a>
+    </div>
+</body>
+<footer>
+    <p class="f4">&copy; 2024 Time Hackers. All rights reserved.</p>
+</footer>
+
+</html>
